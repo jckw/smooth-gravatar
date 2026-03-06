@@ -183,7 +183,7 @@ export default function App() {
   const download = () => {
     if (!canvasRef.current) return
     const a = document.createElement('a')
-    a.download = `gravatar-${seed.slice(0, 12)}.png`
+    a.download = `smooth-gravatar-${seed.slice(0, 12)}.png`
     a.href = canvasRef.current.toDataURL('image/png')
     a.click()
   }
@@ -202,7 +202,7 @@ export default function App() {
       }}
     >
       <h1 style={{ fontSize: 28, fontWeight: 700, letterSpacing: '-0.5px', margin: 0, color: '#fff' }}>
-        Gravatar Generator
+        Smooth Gravatar
       </h1>
 
       <p style={{ fontSize: 14, color: '#71717a', marginTop: 6, marginBottom: 32 }}>

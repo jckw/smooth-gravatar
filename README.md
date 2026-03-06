@@ -1,4 +1,4 @@
-# Gravatar Generator
+# Smooth Gravatar
 
 A React + Vite identicon generator that creates mirrored 5x5 avatars with curated color palettes and rounded cell geometry.
 
